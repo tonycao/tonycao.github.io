@@ -1,13 +1,165 @@
----
-layout: default
-title: Tian Cao
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Tian Cao</title>
+  <meta name="generator" content="Bootply">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css" rel="stylesheet">
+  <link href="./css/longform.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <script defer src="./js/longform.js"></script>
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]>
+  <!-->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+  <!--<![endif]-->
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-<div class="home">
-	<h1>Blog Posts</h1>
-	<ul class="posts">
-		{% for post in site.posts %}
-		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
+</head>
+<body>
+ 
+<div class="am-content-header-container am-light">
+<div class="am-content-container">
+<header class="pure-g-r">
+<div id="logo" class="pure-u-1-3">
+<div class="pure-g">
+<div class="pure-u-1-5">
+<a href="#" class="am-visible-phone am-open-menu"><i class="icon-menu"></i></a>
 </div>
+</div>
+</div>
+<nav class="pure-u-2-3 am-collapsed-phone-menu">
+<div class="pure-menu pure-menu-open pure-menu-horizontal">
+<ul>
+<li><a href="/publications">Publications</a></li>
+<li><a href="/resume">Resume</a></li>
+<li><a href="http://tonycao.github.io/blog">Blog</a></li>
+<li><a href="/tutorials">Tutorials</a></li>
+<li><a href="/contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+</header>
+</div>
+<section id="hero" class="am-hero am-hero-large am-hero-cover" style="background-image: url('./img/unc-banner-s.jpg')" data-bg2x="./img/unc-banner-s.jpg" data-stellar-background-ratio="0.5">
+<div class="am-content-container">
+<div class="pure-g">
+<div class="pure-u">
+<img src="./img/me2.jpg" class="img-circle imgme">
+<div id="headertext">
+<div id="htname">Tian Cao</div>
+<div id="htdesc">&nbsp;UNC Computer Science Ph.D. student</div>
+<div id="htem">&nbsp;tiancao at cs.unc.edu</div>
+<div id="icons">
+        <div class="svgico">
+          <a href=""><img src="./img/03-twitter.svg" width="56px"></a>
+        </div>
+        <div class="svgico">
+          <a href="https://www.linkedin.com/in/tiancao"><img src="./img/linkedin_circle_gray.svg" width="56px"></a>
+        </div>
+        <div class="svgico">
+          <a href="https://github.com/tonycao"><img src="./img/octocat.svg" width="56px"></a>
+        </div>
+      </div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+</div>
+
+
+<div class="am-content-container am-content-container-small">
+<section id="body">
+<div class="pure-g-r">
+<div class="am-entry pure-u">
+<h2><a href="/blog/mapping-ebola-with-d3">This is a test post.&nbsp;Test</a></h2>
+<div class="am-entry-meta">
+<ul>
+<li class="am-entry-meta-bubble am-entry-meta-bubble-vertical-center-container">
+<div class="am-entry-meta-bubble-vertical-center-wrapper">
+<span class="am-meta-date-month">Dec</span>
+<span class="am-meta-date-day">10</span>
+</div>
+</li>
+<!--li class="am-entry-meta-bubble am-entry-meta-bubble-small">
+<a href="#" class="addthis_button" addthis:url="https://www.andrewmunsell.com/blog/mapping-ebola-with-d3" addthis:title="Mapping Ebola with D3"><i class="icon-share"> </i></a>
+</li-->
+</ul>
+</div>
+<p>This is a test post. This is a test post. This is a test post. This is a test post. This is a test post. This is a test post. This is a test post. This is a test post. This is a test post. This is a test post.</p>
+<p><a href="/" target="_blank" class="pure-button pure-button-primary">View</a>
+<a href="/" class="pure-button pure-button-primary">Read More</a></p>
+</div>
+
+
+</div>
+</div>
+<footer>
+<div class="am-content-container am-content-container-small">
+<div class="pure-g-r">
+<div class="pure-u">
+Copyright 2014 Tian Cao
+</div>
+</div>
+</div>
+</footer>
+
+
+        
+<!--script async="" src="./Parallax Jumbotron/analytics.js"></script-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      var jumboHeight = $('.jumbotron').outerHeight();
+      function parallax(){
+      var scrolled = $(window).scrollTop();
+      $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+      }
+      $(window).scroll(function(e){
+      parallax();
+      });
+  });
+</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-49940306-1', 'tonycao.github.io');
+  ga('send', 'pageview');
+</script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52b20297741e8f49"></script>
+<script type="text/javascript">
+    addthis.layers({
+    'theme' : 'transparent',
+    'follow' : {
+      'services' : [
+      {'service': 'twitter', 'id': 'tonycao'},
+      {'service': 'google_follow', 'id': 'u/0/+tiancao'}
+      ],
+      'mobile': false
+    },
+    'thankyou': false
+  });
+</script>
+
+</body>
+</html>
