@@ -85,3 +85,7 @@ header {
     -moz-box-sizing: border-box;
     box-sizing: border-box
 }
+.pure-button-primary:hover {
+    background: #0880F7;
+    background-image: none
+}

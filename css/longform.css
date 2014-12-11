@@ -10,12 +10,7 @@
 .am-content-container.am-content-container-small section: not(.am-full-width): not(.am-wide-width), .am-content-container.am-content-container-small div.am-subscribe-web: not(.am-full-width): not(.am-wide-width), .am-content-container.am-content-container-small .am-entry>p: not(.am-full-width): not(.am-wide-width) {
     width: 650px
 }
-header {
-    height: 80px;
-    line-height: 80px;
-    position: relative;
-    z-index: 2
-}
+
 #logo {
     padding-left: 1em;
     z-index: 1
