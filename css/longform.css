@@ -1,16 +1,16 @@
 
 .am-content-container {
 
-    max-width: 1100px;
+    max-width: 1170px;
 
     margin: 0 auto
 }
 .am-content-container.am-content-container-small {
-    max-width: 650px;
+    max-width: 750px;
     margin: 0 auto
 }
 .am-content-container.am-content-container-small section: not(.am-full-width): not(.am-wide-width), .am-content-container.am-content-container-small div.am-subscribe-web: not(.am-full-width): not(.am-wide-width), .am-content-container.am-content-container-small .am-entry>p: not(.am-full-width): not(.am-wide-width) {
-    width: 650px
+    width: 750px
 }
 #logo {
     padding-left: 1em;
@@ -109,7 +109,7 @@ nav .pure-menu a:hover {
     color: #101010
 }
 #body {
-    padding-top: 2em;
+    padding-top: 0em;
     font-size: 16px;
     color: #444;
     line-height: 28px
@@ -117,12 +117,12 @@ nav .pure-menu a:hover {
 #body .pure-u {
     padding: 0 .5em
 }
-#body .am-entry {
+#body .pure-g {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     padding-bottom: 2.5em;
     margin-bottom: 1.5em
 }
-#body .am-entry h2 {
+#body .pure-g h2 {
     margin-top: .5em;
     margin-bottom: .5em;
     font-weight: 700;
@@ -130,11 +130,11 @@ nav .pure-menu a:hover {
     color: #333;
     line-height: 29px
 }
-#body .am-entry h2 a {
+#body .pure-g h2 a {
     color: #333;
     text-decoration: none
 }
-#body .am-entry p {
+#body .pure-g p {
     margin-top: 0;
     margin-bottom: 1em
 }
@@ -374,7 +374,7 @@ li.am-entry-meta-bubble a {
     padding: 4px 8px
 }
 }
-@media screen and (max-width: 979px) {
+@media screen and (max-width: 970px) {
     header {
         height: auto;
         line-height: auto
@@ -414,13 +414,14 @@ li.am-entry-meta-bubble a {
 }
 #body {
     font-size: 18px;
-    line-height: 32px
+    line-height: 32px;
+
 }
 .am-content-container.am-content-container-small section: not(.am-full-width): not(.am-wide-width), .am-content-container.am-content-container-small div.am-subscribe-web: not(.am-full-width): not(.am-wide-width), .am-content-container.am-content-container-small .am-entry>p: not(.am-full-width): not(.am-wide-width) {
     width: auto
 }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
     #logo a {
         font-size: 18px
    }
@@ -466,7 +467,7 @@ nav .pure-menu-horizontal li {
     font-size: 16px;
     line-height: 16px
 }
-#body .am-entry p {
+#body .pure-g p {
     padding: 0 .25em
 }
 .am-tutorial-navigation {
