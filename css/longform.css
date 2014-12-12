@@ -51,16 +51,16 @@ nav .pure-menu a:hover {
     overflow: hidden
 }
 .am-hero, .am-hero>div, .am-hero.am-hero-cover .pure-g {
-    height: 450px;
-    max-height: 450px
+    height: 400px;
+    max-height: 400px
 }
 .am-hero-small, .am-hero-small>div, .am-hero-small.am-hero-cover .pure-g {
     height: 300px;
     max-height: 300px
 }
 .am-hero-large, .am-hero-large>div, .am-hero-large.am-hero-cover .pure-g {
-    height: 500px;
-    max-height: 500px
+    height: 400px;
+    max-height: 400px
 }
 .am-hero-cover {
     position: relative;
@@ -337,11 +337,7 @@ footer .am-content-container {
     display: none;
     visibility: hidden
 }
-@media (max-width: 800px) {
-    nav .pure-menu a {
-        padding: 5px 16px
-   }
-}
+
 @media (max-width: 814px) {
     .am-entry-meta {
         margin-left: 0;
@@ -454,8 +450,8 @@ nav .pure-menu-horizontal li {
     text-align: center
 }
 .am-hero, .am-hero>div, .am-hero.am-hero-cover .pure-g {
-    min-height: 280px;
-    height: 280px
+    min-height: 300px;
+    height: 300px
 }
 .am-hero-cover {
     box-shadow: inset 0 -1px 6px rgba(0, 0, 0, .2);

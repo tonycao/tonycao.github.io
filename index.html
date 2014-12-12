@@ -51,7 +51,7 @@
 <li><a href="/resume/resume.pdf">Resume</a></li>
 <li><a href="/blog">Blog</a></li>
 <li><a href="/MISC">MISC</a></li>
-<li><a href="/contact">Contact</a></li>
+<li><a href="/">Contact</a></li>
 </ul>
 </div>
 </nav>
@@ -71,18 +71,19 @@
         <!--div class="svgico">
           <a href=""><img src="./img/03-twitter.svg" width="56px"></a>
         </div-->
-        <div class="svgico">
+        <!--div class="svgico">
           <a href="https://www.linkedin.com/in/tiancao"><img src="./img/linkedin_circle_gray.svg" width="56px"></a>
         </div>
         <div class="svgico">
           <a href="https://github.com/tonycao"><img src="./img/octocat.svg" width="56px"></a>
         </div>
-      </div>
+      </div-->
 </div>
 </div>
 </div>
 </div>
 </section>
+
 
 
 
@@ -90,34 +91,34 @@
 <section id="body">
 <div class="pure-g">
 <div class="am-entry pure-u">
-<h2><a href="/blog/#">This is a test post.&nbsp;Test</a></h2>
-<div class="am-entry-meta">
-<ul>
-<li class="am-entry-meta-bubble am-entry-meta-bubble-vertical-center-container">
-<div class="am-entry-meta-bubble-vertical-center-wrapper">
-<span class="am-meta-date-month">Dec</span>
-<span class="am-meta-date-day">10</span>
-</div>
-</li>
-<!--li class="am-entry-meta-bubble am-entry-meta-bubble-small">
-<a href="#" class="addthis_button" addthis:url="https://www.andrewmunsell.com/blog/mapping-ebola-with-d3" addthis:title="Mapping Ebola with D3"><i class="icon-share"> </i></a>
-</li-->
-</ul>
-</div>
-<p>The selection step and the n multiplications are just linear time: In a typical setting for polynomial multiplication, the coefficients of the polynomials are real numbers and, moreover, are small enough that basic arithmetic operations (adding and multiplying) take unit time.</p>
-<p><a href="/" target="_blank" class="pure-button pure-button-primary">View</a>
-<a href="/" class="pure-button">Read More</a></p>
+<h2><a href="#">Brief Bio</a></h2>
+
+<p>I am a Ph.D. student at the <a target="_blank" href="http://www.scu.edu.cn/computer2012/">Computer Science Department</a>, <a target="_blank" href="http://www.unc.edu">UNC-Chapel Hill</a>. I am working with <a target="_blank" href="http://wwwx.cs.unc.edu/~mn/">Professor Marc Niethammer</a>.</p>
+<p>
+  I obtained my Master's degree in <a target="_blank" href="http://cs.scu.edu.cn/">College of Computer Science</a>, <a target="_blank" href="http://www.scu.edu.cn/en/">Sichuan University</a>, working with <a target="_blank" href="http://www.scumil.cn/DrDongLiu.htm">Professor Dong C. Liu</a>. I graduated with a B.E. in Computer Science from the same University in 2007. I was a visiting student at <a target="_blank" href="http://english.siat.cas.cn/">Shenzhen Insititute of Advanced Technology</a>, <a target="_blank" href="http://english.cas.cn/">Chinese Academy of Sciences</a>, and advised by <a target="_blank" href="http://arl.acae.cuhk.edu.hk/node/16">Professor Yangsheng Xu</a>. 
+</p>
+<p>
+My research interests are including Machine Learning, Image Analysis and Computer Vision.
+<a href="/resume/resume.pdf" target="_blank" class="pure-button">Resume</a>
+</p>
 </div>
 </div>
 </section>
 </div>
 
+<hr class="soft">
+
+<div class="container">
 <div class="am-content-container am-content-container-small">
 <div class="pure-g">
     <div class="pure-u">Two Thirds with unequal size... This could be another test that remove class am-entry-meta. with continueing test...
     </div>
 </div>
 </div>
+</div>
+
+<hr class="soft">
+
 <!-- test pure -->
 <section id="body">
 <div class="pure-g">
@@ -154,9 +155,9 @@ Copyright 2014 Tian Cao
 <script defer src="js/jquery.stellar.min.js"></script>
 
 <script>
-$(function(){
-  $.stellar({
-    horizontalScrolling: false
+$(document).ready(function(){
+  $(window).stellar({
+    horizontalScrolling: false,
   });
 });
   
