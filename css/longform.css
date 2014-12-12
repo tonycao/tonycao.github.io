@@ -1,6 +1,8 @@
 
 .am-content-container {
+
     max-width: 1100px;
+
     margin: 0 auto
 }
 .am-content-container.am-content-container-small {
@@ -10,7 +12,6 @@
 .am-content-container.am-content-container-small section: not(.am-full-width): not(.am-wide-width), .am-content-container.am-content-container-small div.am-subscribe-web: not(.am-full-width): not(.am-wide-width), .am-content-container.am-content-container-small .am-entry>p: not(.am-full-width): not(.am-wide-width) {
     width: 650px
 }
-
 #logo {
     padding-left: 1em;
     z-index: 1
@@ -43,7 +44,6 @@ nav .pure-menu a:hover {
 .am-dark #logo a, .am-dark nav .pure-menu a {
     color: #101010
 }
-
 .am-hero {
     margin-top: -80px
 }
