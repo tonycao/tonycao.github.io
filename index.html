@@ -151,19 +151,15 @@ Copyright 2014 Tian Cao
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script defer src="js/longform.js"></script>
+<script defer src="js/jquery.stellar.min.js"></script>
 
-<script type="text/javascript">
-  $(document).ready(function() {
-      var jumboHeight = $('.jumbotron').outerHeight();
-      function parallax(){
-      var scrolled = $(window).scrollTop();
-      $('.bg').css('height', (jumboHeight-scrolled) + 'px');
-      }
-      $(window).scroll(function(e){
-      parallax();
-      });
+<script>
+$(function(){
+  $.stellar({
+    horizontalScrolling: false
   });
+});
+  
 </script>
 
 <!-- Google Analytics -->
@@ -179,6 +175,9 @@ Copyright 2014 Tian Cao
 </script>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5488f0d64120025a" async="async"></script>
+
+
+
 
 
 </body>
