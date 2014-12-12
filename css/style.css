@@ -156,3 +156,16 @@ padding-left: 17px;
 .pubs li ul {
     padding-bottom: 5px;
 }
+/* clearfix */
+.clear:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    display: block;
+}
