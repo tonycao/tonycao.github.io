@@ -51,16 +51,16 @@ nav .pure-menu a:hover {
     overflow: hidden
 }
 .am-hero, .am-hero>div, .am-hero.am-hero-cover .pure-g {
-    height: 400px;
-    max-height: 400px
+    height: 350px;
+    max-height: 350px
 }
 .am-hero-small, .am-hero-small>div, .am-hero-small.am-hero-cover .pure-g {
     height: 300px;
     max-height: 300px
 }
 .am-hero-large, .am-hero-large>div, .am-hero-large.am-hero-cover .pure-g {
-    height: 400px;
-    max-height: 400px
+    height: 350px;
+    max-height: 350px
 }
 .am-hero-cover {
     position: relative;
