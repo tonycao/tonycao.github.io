@@ -135,8 +135,12 @@ a {
     color: #428bca;
     text-decoration: none
 }
+a.soft {
+  color: #444;
+  text-decoration: none
+}
 
-a:hover, a:focus {
+a:hover, a:focus .soft{
     color: #2a6496;
     text-decoration: underline
 }

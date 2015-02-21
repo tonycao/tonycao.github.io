@@ -145,17 +145,6 @@ img.am-wide-width, img.am-full-width {
     margin: 0;
     padding: 0
 }
-li.am-entry-meta-bubble {
-    background: #C7C7C7;
-    color: #fff;
-    text-align: center;
-    line-height: 50px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-bottom: 16px
-}
-
 /*#footer {
     margin-top: 6em;
     margin-bottom: 6em;
@@ -171,42 +160,6 @@ footer .am-content-container {
     visibility: hidden
 }
 */
-@media (max-width: 814px) {
-    .am-entry-meta {
-        margin-left: 0;
-        height: auto
-   }
-   .am-entry-meta li {
-       margin: 0;
-       margin-right: 8px;
-       display: inline-block
-  }
-  .am-entry-meta-bubble-vertical-center-wrapper {
-      display: block
- }
- .am-entry-meta li.am-entry-meta-bubble {
-     background: 0;
-     line-height: 20px;
-     width: auto;
-     height: auto;
-     margin-bottom: 12px
-}
-.am-entry-meta li.am-entry-meta-bubble a, .am-entry-meta li span {
-    color: #A4A4A4;
-    font-size: 14px
-}
-.am-meta-date-day:after {
-    padding-left: 16px;
-    content: "|"
-}
-.am-meta-date-month, .am-meta-date-day {
-    display: inline;
-    font-weight: 400
-}
-li.am-entry-meta-bubble a {
-    padding: 4px 8px
-}
-}
 @media screen and (max-width: 970px) {
     header {
         height: auto;
@@ -259,10 +212,6 @@ li.am-entry-meta-bubble a {
        height: 0;
        overflow: hidden
   }
-  nav.am-menu-expanded {
-      height: auto;
-      margin-bottom: 1.5em
- }
  nav ul {
      float: none
 }
