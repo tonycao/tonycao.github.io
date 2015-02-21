@@ -60,12 +60,12 @@ header {
   margin-left: 220px;
 }
 #htname {
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 400;
   color: white;
 }
 #htdesc {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 300;
   margin-top: -6px;
   color: white;
@@ -75,10 +75,15 @@ header {
   font-weight: 300;
   color: white;
 }
+h2{
+  font-weight: 400;
+}
 .svgico {
   display: inline-block;
 }
-
+hr {
+  margin: 30px 0px 5px;
+}
 hr.soft {
   border: 0;
   height: 1px;
@@ -87,7 +92,7 @@ hr.soft {
   background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
   background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
   padding: 0;
-  margin: 40px 0px 0px;
+  margin: 30px 0px 5px;
 }
 
 .pure-button {
@@ -126,7 +131,6 @@ hr.soft {
   }
 }
 
-
 a {
     color: #428bca;
     text-decoration: none
@@ -144,9 +148,9 @@ a:focus {
 }
 h2 {
   text-align: left;
-  font-weight: 300;
-  font-size: 35px;
-  padding: 10px 0px 10px;
+  font-weight: 400;
+  font-size: 28px;
+  padding: 0px 0px 0px;
 }
 .pubs{
 padding-left: 17px;

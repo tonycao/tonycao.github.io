@@ -1,28 +1,4 @@
 
-.am-content-container {
-
-    max-width: 1170px;
-
-    margin: 0 auto
-}
-.am-content-container.am-content-container-small {
-    max-width: 750px;
-    margin: 0 auto
-}
-.am-content-container.am-content-container-small section: not(.am-full-width): not(.am-wide-width), .am-content-container.am-content-container-small div.am-subscribe-web: not(.am-full-width): not(.am-wide-width), .am-content-container.am-content-container-small .am-entry>p: not(.am-full-width): not(.am-wide-width) {
-    width: 750px
-}
-#logo {
-    padding-left: 1em;
-    z-index: 1
-}
-#logo a {
-    font-weight: 700;
-    font-size: 24px;
-    text-decoration: none;
-    color: #fff;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, .15)
-}
 nav {
     padding-right: 1em
 }
@@ -30,18 +6,20 @@ nav ul {
     float: right
 }
 nav .pure-menu a {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     color: #fff;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, .15)
+    text-shadow: none 
+    /*2px 2px 0 rgba(0, 0, 0, .15)*/
 }
 nav .pure-menu a:hover {
     background: rgba(255, 255, 255, .2)
 }
-.am-dark nav .pure-menu a:hover {
+
+nav .pure-menu a:hover {
     background: rgba(0, 0, 0, .2)
 }
-.am-dark #logo a, .am-dark nav .pure-menu a {
+#logo a, .am-dark nav .pure-menu a {
     color: #101010
 }
 .am-hero {
@@ -91,14 +69,14 @@ nav .pure-menu a:hover {
     padding: 0;
     padding: 0 16px;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 40px;
     line-height: 58px;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, .15);
     color: #fff
 }
 .am-hero-cover h2 {
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 16px;
     text-transform: uppercase;
     opacity: .8
 }
@@ -110,7 +88,7 @@ nav .pure-menu a:hover {
 }
 #body {
     padding-top: 0em;
-    font-size: 16px;
+    font-size: 15px;
     color: #444;
     line-height: 28px
 }
@@ -121,14 +99,6 @@ nav .pure-menu a:hover {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     padding-bottom: 2.5em;
     margin-bottom: 1.5em
-}
-#body .pure-g h2 {
-    margin-top: .5em;
-    margin-bottom: .5em;
-    font-weight: 700;
-    font-size: 24px;
-    color: #333;
-    line-height: 29px
 }
 #body .pure-g h2 a {
     color: #333;
@@ -143,13 +113,6 @@ nav .pure-menu a:hover {
 }
 a {
     color: #1980E3
-}
-pre {
-    overflow-x: scroll
-}
-pre code {
-    font-size: 14px;
-    white-space: pre
 }
 #body table {
     margin-bottom: 1em
@@ -192,138 +155,8 @@ li.am-entry-meta-bubble {
     border-radius: 50%;
     margin-bottom: 16px
 }
-li.am-entry-meta-bubble-small {
-    line-height: 30px;
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
-    font-size: 10px
-}
-li.am-entry-meta-bubble a {
-    color: #fff;
-    text-decoration: none
-}
-.am-entry-meta-bubble-vertical-center-container {
-    display: table
-}
-.am-entry-meta-bubble-vertical-center-wrapper {
-    display: table-cell;
-    vertical-align: middle
-}
-.am-meta-date-month, .am-meta-date-day {
-    display: block
-}
-.am-meta-date-month {
-    font-size: 14px;
-    line-height: 14px
-}
-.am-meta-date-day {
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 15px;
-    margin-top: 4px
-}
-.am-subscribe-well {
-    border: 1px solid #ededed;
-    background: #f6f6f6;
-    padding: 1em
-}
-.am-lesson-list {
-    list-style-type: none;
-    padding-left: .5em
-}
-.am-lesson-list>li {
-    margin-bottom: 1em
-}
-.am-lesson-list .am-lesson-list-number {
-    display: inline-block;
-    color: #fff;
-    background: #333;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    line-height: 35px;
-    margin-right: .5em;
-    text-align: center
-}
-.am-lesson-list .am-lesson-list-title, .am-lesson-list .am-lesson-list-preview {
-    display: block;
-    line-height: 1.5em
-}
-.am-lesson-list .am-lesson-list-title a {
-    display: inline-block;
-    color: #444;
-    font-weight: 700;
-    text-decoration: none
-}
-.am-lesson-list .am-lesson-list-preview {
-    font-weight: 400;
-    font-size: .8em
-}
-.am-parent-button {
-    font-size: 13px;
-    padding: .5em;
-    margin-bottom: 1em
-}
-.am-tutorial-navigation {
-    margin-top: 2em
-}
-.am-tutorial-navigation a, .am-tutorial-navigation span {
-    display: block;
-    line-height: 1.4em;
-    font-weight: 700;
-    color: #333
-}
-.am-tutorial-navigation a {
-    padding: .4em 0
-}
-.am-tutorial-navigation a:hover {
-    opacity: .9
-}
-.am-tutorial-navigation.am-tutorial-navigation-next {
-    text-align: right
-}
-.am-tutorial-navigation-meta {
-    text-transform: uppercase;
-    font-size: .7em;
-    opacity: .4
-}
-.am-tutorial-preview {
-    padding: 1em 1.5em;
-    background: #eee;
-    border: 1px solid #ccc
-}
-.am-portfolio-listing-item {
-    position: relative;
-    margin-bottom: 1em
-}
-.am-portfolio-listing-item-padding {
-    position: relative;
-    width: 96%;
-    margin: 0 2%
-}
-.am-portfolio-listing-item h2 {
-    position: absolute;
-    bottom: .5em;
-    z-index: 2;
-    font-size: 16px;
-    line-height: 24px;
-    color: #fff;
-    padding: 0 5%;
-    margin: 0;
-    width: 90%;
-    background: rgba(0, 0, 0, .6)
-}
-.am-portfolio-listing-item h2 a {
-    color: #fff;
-    text-decoration: none;
-    display: block
-}
-.am-cart-remove {
-    color: #222;
-    text-decoration: none
-}
-footer {
+
+/*#footer {
     margin-top: 6em;
     margin-bottom: 6em;
     font-size: 13px;
@@ -337,7 +170,7 @@ footer .am-content-container {
     display: none;
     visibility: hidden
 }
-
+*/
 @media (max-width: 814px) {
     .am-entry-meta {
         margin-left: 0;
@@ -417,9 +250,6 @@ li.am-entry-meta-bubble a {
     line-height: 32px;
 
 }
-.am-content-container.am-content-container-small section: not(.am-full-width): not(.am-wide-width), .am-content-container.am-content-container-small div.am-subscribe-web: not(.am-full-width): not(.am-wide-width), .am-content-container.am-content-container-small .am-entry>p: not(.am-full-width): not(.am-wide-width) {
-    width: auto
-}
 }
 @media screen and (max-width: 750px) {
     #logo a {
@@ -447,9 +277,6 @@ nav .pure-menu-horizontal li {
     padding-right: 0;
     border-bottom: 1px solid #eee
 }
-.am-open-menu {
-    text-align: center
-}
 .am-hero, .am-hero>div, .am-hero.am-hero-cover .pure-g {
     min-height: 300px;
     height: 300px
@@ -467,9 +294,7 @@ nav .pure-menu-horizontal li {
     font-size: 16px;
     line-height: 16px
 }
-#body .pure-g p {
-    padding: 0 .25em
-}
+
 .am-tutorial-navigation {
     padding: 0 .5em
 }
@@ -485,15 +310,5 @@ img.am-wide-width, img.am-full-width {
 }
 .am-portfolio-listing-item {
     margin: 0 .5em
-}
-.am-portfolio-listing-item h2 {
-    padding: 0;
-    margin: .5em 0;
-    bottom: 0;
-    width: 100%;
-    font-size: 16px
-}
-.am-portfolio-listing-item h2 a {
-    padding-left: 2%
 }
 }
